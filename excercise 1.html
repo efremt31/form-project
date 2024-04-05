@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<sc>, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <form
+      id="fs-frm"
+      name="simple-contact-form"
+      accept-charset="utf-8"
+      action="https://formspree.io/f/mayrjlwz"
+      method="post"
+    >
+      <fieldset id="fs-frm-inputs">
+        <h1>Contact Us</h1>
+        <div class="form-container">
+          <div class="fullname-container">
+            <label class="required-field" for="first-name">First Name</label>
+            <input
+              class="finame"
+              type="text"
+              name="fname"
+              id="first-name"
+              placeholder="  First Name"
+              required=""
+            />
+            <label class="required-field" for="last-name">Last Name</label>
+            <input
+              type="text"
+              name="lname"
+              id="last-name"
+              placeholder="  Last Name"
+              required=""
+            />
+          </div>
+          <div class="email-cont">
+            <label class="required-field" for="email-address"
+              >Email Address</label
+            >
+            <br />
+            <input
+              type="email"
+              name="_replyto"
+              id="  email-address"
+              placeholder="email@domain.tld"
+              required=""
+            />
+          </div>
+          <label class="required-field" for="message"
+            >Leave us a few words</label
+          >
+          <br />
+          <textarea
+            rows="5"
+            cols="75%"
+            name="message"
+            id="message"
+            placeholder="enter comments here..."
+            required=""
+          ></textarea>
+          <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Contact Form Submission"
+          />
+        </div>
+        <div class="sbutton">
+          <input type="submit" value="Submit" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

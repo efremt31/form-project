@@ -1,0 +1,225 @@
+body {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  font-weight: bolder;
+  margin: 0;
+}
+
+form {
+  width: 75%;
+  margin: auto;
+  background-color: rgba(24, 4, 4, 0.938);
+  color: aliceblue;
+  border-radius: 15px;
+}
+
+fieldset {
+  border: 0;
+}
+
+.required-field::after {
+  content: "*";
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 4em;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.form-container input {
+  border-radius: 10px;
+  height: 25px;
+
+  border-color: white;
+  border-width: 2px;
+}
+
+.email-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.email-cont input {
+  width: 50%;
+}
+
+textarea {
+  border-radius: 15px;
+  border-color: white;
+  border-width: 30px;
+}
+
+.sbutton input {
+  background-color: red;
+  text-align: center;
+  border-radius: 15px;
+  height: 60px;
+  width: 180px;
+  border-radius: 15px;
+  color: aliceblue;
+  border-color: aliceblue;
+  font-weight: bolder;
+  border-width: 1px;
+}
+
+.sbutton {
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media all and (max-width: 650px) {
+  body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  fieldset {
+    margin: auto;
+    height: 90%;
+  }
+
+  form {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  .fullname-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .form-container input {
+    width: 100px;
+    margin: auto;
+  }
+
+  .form-container {
+    text-align: center;
+    width: 190px;
+    margin: auto;
+  }
+
+  .email-cont {
+    margin-right: 100px !important;
+  }
+
+  .email-cont input {
+    width: 150px;
+  }
+
+  .email-cont label {
+    margin-left: 103px !important;
+  }
+
+  textarea {
+    width: 100px;
+  }
+
+  textarea ::placeholder {
+    text-align: start;
+  }
+
+  .email-cont {
+    width: 50px;
+  }
+
+  .sbutton input {
+    height: 25px;
+    width: 79px;
+  }
+}
+
+@media all and (max-width: 940px) {
+  body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  background-image {
+    height: 100vh;
+  }
+
+  fieldset {
+    margin: auto;
+    height: 90%;
+  }
+
+  form {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  .fullname-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .form-container input {
+    width: 100px;
+    margin: auto;
+  }
+
+  .form-container {
+    text-align: center;
+    width: 190px;
+    margin: auto;
+  }
+
+  .email-cont {
+    margin-right: 100px !important;
+  }
+
+  .email-cont input {
+    width: 150px;
+  }
+
+  .email-cont label {
+    margin-left: 103px !important;
+  }
+
+  textarea {
+    width: 120px;
+  }
+
+  textarea ::placeholder {
+    text-align: start;
+  }
+
+  .email-cont {
+    width: 50px;
+  }
+
+  .sbutton input {
+    height: 25px;
+    width: 79px;
+  }
+}
